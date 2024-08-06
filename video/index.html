@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    <title>E. S. Ti - Equipe de suporte Ti - Rede Plus - Videos</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
+</head>
+<body>
+    <h3 class="heading">E. S. TI - Equipe de SUPORTE TI</h3>
+
+<div class="container">
+
+    <div class="main-video">
+        <div class="video">
+            <video src="./images/vid.mp4" controls mute autoplay></video>
+            <h3 class="title">01. Tutorial - Reiniciar PDV</h3>
+            
+        </div>
+    </div>
+
+    <div class="video-list">
+         <div class="vid active">
+            <video src="./images/AtivaTerminal.mp4" mute></video>
+            <h3 class="title">02. Tutorial - Ativar programa de cosulta</h3>
+         </div>
+         <div class="vid">
+            <video src="./images/RelatorioFechamentoCX.mp4" mute></video>
+            <h3 class="title">03. Tutorial - Relatorio de Fechamento</h3>
+         </div>
+         <div class="vid">
+            <video src="./images/CargaUrano.mp4" mute></video>
+            <h3 class="title">04. Tutorial - Carga Balanças</h3>
+         </div>
+         <div class="vid">
+            <video src="./images/Botão feed.mp4" mute></video>
+            <h3 class="title">05. Tutorial - Reset Impressora PDV</h3>
+         </div>
+         <div class="vid">
+            <video src="./images/linkdeajuda.mp4" mute></video>
+            <h3 class="title">06. Tutorial - Link de Ajuda</h3>
+         </div>
+         <div class="vid">
+            <video src="./images/vid.mp4" mute></video>
+            <h3 class="title">01. Tutorial de como reiniciar a impressora</h3>
+         </div>
+         <div class="vid">
+            <video src="./images/vid.mp4" mute></video>
+            <h3 class="title">01. Tutorial de como reiniciar a impressora</h3>
+         </div>
+   
+    </div>
+</div>
+
+<script>
+   let listVideo = document.querySelectorAll('.video-list .vid');
+   let mainVideo= document.querySelector('.main-video video');
+   let title = document.querySelector('.main-video .title');
+
+   listVideo.forEach(video =>{
+      video.onclick = () =>{
+         listVideo.forEach(vid => vid.classList.remove('active'));
+         video.classList.add('active');
+         if(video.classList.contains('active')){
+            let src = video.children[0].getAttribute('src');
+            mainVideo.src = src;
+         };
+      };
+   });
+</script>
+</body>
+
+</html>

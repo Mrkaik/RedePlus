@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sidebar</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./css/pagcss.css">
+</head>
+<body>
+ <nav class="mnb navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <div style="padding: 15px 0;">
+         <a href="#" id="msbo"><i class="ic fa fa-bars"></i></a>
+      </div>
+    </div>
+  </div>
+</nav>
+<!--msb: main sidebar-->
+<div class="msb" id="msb">
+		<nav class="navbar navbar-default" role="navigation">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<div class="brand-wrapper">
+					<!-- Brand -->
+					<div class="brand-name-wrapper">
+						<a class="navbar-brand" href="#">
+							Navegação
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<!-- Main Menu -->
+			<div class="side-menu-container">
+				<ul class="nav navbar-nav">
+					<li><a href="#"><i class="fa fa-diamond"></i> Dashboard</a></li>
+					<!-- Dropdown-->
+					<li class="panel panel-default">
+						<a data-toggle="collapse" href="#dropdown-lvl1">
+							<i class="fa fa-dashboard"></i> Relógio
+						  <span class="caret"></span>
+            </a>
+						<!-- Dropdown level 1 -->
+						<div id="dropdown-lvl1" class="panel-collapse collapse">
+							<div class="panel-body">
+								<ul class="nav navbar-nav">
+									<!-- Dropdown level 2 -->
+									<li class="panel panel-default">
+										<a data-toggle="collapse" href="#dropdown-lvl2-1">
+											<i class="glyphicon glyphicon-off"></i> Loja 01 <span class="caret"></span>
+										</a>
+										<div id="dropdown-lvl2-1" class="panel-collapse collapse">
+											<div class="panel-body">
+												<ul class="nav navbar-nav">
+													<li><a href="https://192.168.0.58/#page=users" target="_blank">Loja 01 Tietê - Relógio 01</a></li>
+									      			<li><a href="http://192.168.0.59/#" target="_blank">Loja 01 Tietê - Relógio 02</a></li>
+									      			<li><a href="http://192.168.0.236/" target="_blank">Loja 01 Tietê - Padaria</a></li>
+									      			<li><a href="https://192.168.0.254/" target="_blank">Loja 01 Tietê - Diretriz0</a></li>
+												</ul>
+											</div>
+										</div>
+									</li>
+									<!-- Dropdown level 2 -->
+									<li class="panel panel-default">
+										<a data-toggle="collapse" href="#dropdown-lvl2-2">
+											<i class="glyphicon glyphicon-off"></i> Loja 02 <span class="caret"></span>
+										</a>
+										<div id="dropdown-lvl2-2" class="panel-collapse collapse">
+											<div class="panel-body">
+												<ul class="nav navbar-nav">
+													    <li><a href="https://192.168.2.153:8080/#page=login" target="_blank">Loja 02 Perus - Relógio 01</a></li>
+                          								<li><a href="http://192.168.2.150/prisma.html" target="_blank">Loja 02 Perus - Relógio 02</a></li>
+												</ul>
+											</div>
+										</div>
+									</li>
+									<!-- Dropdown level 2 -->
+									<li class="panel panel-default">
+										<a data-toggle="collapse" href="#dropdown-lvl2-3">
+											<i class="glyphicon glyphicon-off"></i> Loja 03 <span class="caret"></span>
+										</a>
+										<div id="dropdown-lvl2-3" class="panel-collapse collapse">
+											<div class="panel-body">
+												<ul class="nav navbar-nav">
+													<li><a href="http://192.168.1.253/#page-login" target="_blank">Loja 03 Taipas - Comercial</a></li>
+                          							<li><a href="http://192.168.1.248/" target="_blank">Loja 03 Taipas - Relógio 02</a></li>
+												</ul>
+											</div>
+										</div>
+									</li>
+									<!-- Dropdown level 2 -->
+									<li class="panel panel-default">
+										<a data-toggle="collapse" href="#dropdown-lvl2-4">
+											<i class="glyphicon glyphicon-off"></i> Loja 04 <span class="caret"></span>
+										</a>
+										<div id="dropdown-lvl2-4" class="panel-collapse collapse">
+											<div class="panel-body">
+												<ul class="nav navbar-nav">
+													<li><a href="https://192.168.4.125:80/#page=login" target="_blank">Loja 04 Santa Maria - Relógio 01 </a></li>
+                          							<li><a href="http://192.168.4.126/#" target="_blank">Loja 04 Santa Maria - Relógio 02</a></li>
+												</ul>
+											</div>
+										</div>
+									</li>
+									<!-- Dropdown level 2 -->
+									<li class="panel panel-default">
+										<a data-toggle="collapse" href="#dropdown-lvl2-5">
+											<i class="glyphicon glyphicon-off"></i> Loja 05 <span class="caret"></span>
+										</a>
+										<div id="dropdown-lvl2-5" class="panel-collapse collapse">
+											<div class="panel-body">
+												<ul class="nav navbar-nav">
+													<li><a href="http://192.168.5.251/" target="_blank">Loja 05 Nova Perus - Relógio 01</a></li>
+													<li><a href="http://192.168.5.250/" target="_blank">Loja 05 Nova Perus - Relógio 02</a></li>
+												</ul>
+											</div>
+										</div>
+									</li>
+									<!-- Dropdown level 2 -->
+									<li class="panel panel-default">
+										<a data-toggle="collapse" href="#dropdown-lvl2-6">
+											<i class="glyphicon glyphicon-off"></i> Loja 09 <span class="caret"></span>
+										</a>
+										<div id="dropdown-lvl2-6" class="panel-collapse collapse">
+											<div class="panel-body">
+												<ul class="nav navbar-nav">
+													<li><a href="https://192.168.9.144:8076/" target="_blank">Loja 09 Inajar - Comercial</a></li>
+                          							
+												</ul>
+											</div>
+										</div>
+									</li>
+									<li class="panel panel-default">
+										<a data-toggle="collapse" href="#dropdown-lvl2-7">
+											<i class="glyphicon glyphicon-off"></i> Loja 14 <span class="caret"></span>
+										</a>
+										<div id="dropdown-lvl2-7" class="panel-collapse collapse">
+											<div class="panel-body">
+												<ul class="nav navbar-nav">
+													<li><a href="https://192.168.14.57:8092/#page=login" target="_blank">Loja 14 Pirituba - Relógio 01</a></li>
+                          							<li><a href="http://192.168.14.250/#" target="_blank">Loja 14 Pirituba - Padaria</a></li>
+                          							<li><a href="https://192.168.14.58:8093/#page=login" target="_blank">Loja 14 Pirituba - HortiFruti</a></li>
+												</ul>
+											</div>
+										</div>
+									</li>
+									<li class="panel panel-default">
+										<a data-toggle="collapse" href="#dropdown-lvl2-8">
+											<i class="glyphicon glyphicon-off"></i> Loja 15 <span class="caret"></span>
+										</a>
+										<div id="dropdown-lvl2-8" class="panel-collapse collapse">
+											<div class="panel-body">
+												<ul class="nav navbar-nav">
+													<li><a href="https://192.168.15.60:8015/" target="_blank">Loja 15 Engenheiro - Relógio 01</a></li>
+													<li><a href="https://192.168.15.61:8016/" target="_blank">Loja 15 Engenheiro - Relógio 02</a></li>
+												</ul>
+											</div>
+										</div>
+									</li>
+									<li class="panel panel-default">
+										<a data-toggle="collapse" href="#dropdown-lvl2-9">
+											<i class="glyphicon glyphicon-off"></i> Loja 17 <span class="caret"></span>
+										</a>
+										<div id="dropdown-lvl2-9" class="panel-collapse collapse">
+											<div class="panel-body">
+												<ul class="nav navbar-nav">
+													<li><a href="https://192.168.17.154:80/#page=login" target="_blank">Loja 17 C.Sampaio - Relógio 01</a></li>
+													<li><a href="http://192.168.17.140/" target="_blank">Loja 17 C.Sampaio  - Relógio 02</a></li>
+												</ul>
+											</div>
+										</div>
+									</li>
+									<li class="panel panel-default">
+										<a data-toggle="collapse" href="#dropdown-lvl2-10">
+											<i class="glyphicon glyphicon-off"></i> Loja 20 <span class="caret"></span>
+										</a>
+										<div id="dropdown-lvl2-10" class="panel-collapse collapse">
+											<div class="panel-body">
+												<ul class="nav navbar-nav">
+													<li><a href="http://192.168.20.250/" target="_blank">Loja 20 Vila Prudente- Relógio 01</a></li>
+          											<li><a href="https://192.168.20.251:8081/" target="_blank">Loja 20 Vila Prudente- Relógio 02</a></li>
+												</ul>
+											</div>
+										</div>
+									</li>
+									<li class="panel panel-default">
+										<a data-toggle="collapse" href="#dropdown-lvl2-11">
+											<i class="glyphicon glyphicon-off"></i> Loja 28 <span class="caret"></span>
+										</a>
+										<div id="dropdown-lvl2-11" class="panel-collapse collapse">
+											<div class="panel-body">
+												<ul class="nav navbar-nav">
+													<li><a href="http://192.168.8.243/#page=login" target="_blank">Loja 28 Brasilandia- Relógio 01</a></li>
+          											<li><a href="https://192.168.8.241:8081/" target="_blank">Loja 28 Brasilandia- Relógio 02</a></li>
+												</ul>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li><a href="#"><span class="glyphicon glyphicon-signal"></span> Link</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</nav>  
+</div>
+<!--main content wrapper-->
+<div class="mcw">
+  <!--navigation here-->
+  <!--main content view-->
+  <div class="cv">
+    <div>
+     <div class="inbox">
+       <div class="inbox-sb">
+         
+       </div>
+            </tbody>
+             </table>
+           </div>
+         </div>
+       </div>
+     </div>
+    </div>
+  </div>
+</div>  
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="./js/pagjs.js"></script>
+</body>
+</html>
